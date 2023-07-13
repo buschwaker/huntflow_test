@@ -29,7 +29,7 @@ def main():
     """Entrypoint"""
 
     # put info from excel into dataframe
-    df = pd.read_excel(APPLICANTS, na_values="NA")
+    df = pd.read_excel(APPLICANTS)
     df.rename(
         columns={
             "Должность": "position",
