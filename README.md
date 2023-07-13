@@ -9,8 +9,8 @@
 1. Скачиваем репозиторий
 2. Устанавливаем и активируем виртуальное окружение  
 3. Устанавливаем зависимости `pip install -r requirements.txt`
-4. Введите python main.py --ACCESS_TOKEN "<access_token>" --CV_PATH "<cv_path>" --APPLICANTS "<applicants>" --API_ENDPOINT "<api_endpoint>"
-    - access_token - валидный токен пользователя(обязательное поле)
-    - cv_path - относительный путь до директории, где хранятся файлы-резюме
-    - applicants - относительный путь до excel-файла
-    - api_endpoint - адрес сервера API
+4. Введите `python main.py --ACCESS_TOKEN "<access_token>" --CV_PATH "<cv_path>" --APPLICANTS "<applicants>" --API_ENDPOINT "<api_endpoint>"`
+    - `access_token` - валидный токен пользователя(обязательное поле)
+    - `cv_path` - относительный путь до директории, где хранятся файлы-резюме
+    - `applicants` - относительный путь до excel-файла
+    - `api_endpoint` - адрес сервера API
